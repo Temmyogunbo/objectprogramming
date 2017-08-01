@@ -41,6 +41,11 @@ class Car extends Vehicle {
 		return `You be careful, the road is muddy and your car is ${this.wheels} wheels with ${this._numOfDoors} doors`
 	}
 
+	//static method to describe my car class
+	static describe() {
+		return 'The car class has functions and properties inherited for the vehicle class with the drive function overridden. '
+	}
+
 }
 
 
@@ -50,6 +55,6 @@ class Car extends Vehicle {
 // console.log(honda.numOfDoors)
 //volvo = new Car('Volvo', 4, 'primera', 120, '')
 //console.log(volvo.numOfDoors)
-// console.log(volvo.drive())
+// console.log(Car.describe());
 
 module.exports = {Car};
