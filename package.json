@@ -1,0 +1,16 @@
+{
+  "name": "oprogram",
+  "version": "1.0.0",
+  "description": "vehicle model",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "author": "Emmannuel Ogunbo",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "jasmine": "^2.7.0",
+    "mocha": "^3.5.0"
+  }
+}
