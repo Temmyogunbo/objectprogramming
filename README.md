@@ -1,1 +1,2 @@
-# objectprogramming
+# Object oriented Programming
+Here is a model of a class vehicle. The properties of the vehicle includes make, soldOn, wheels, speed, and type. Also, it has the drive and salesPrice function. The sublass is a car that inherits both the properties and functions of vehicle. The super function makes this possible. This is the concept of inheritance. Furthermore, I override the drive function in the car class. This is the concept of polymorphism. I described encapsulation using the getters and setters method. Thus, my class data has been encapsulated and data is abstracted i.e encapsulation and data abstraction. Finally, I have used the static methd to describe my car class. 
