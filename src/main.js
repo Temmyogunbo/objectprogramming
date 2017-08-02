@@ -48,13 +48,4 @@ class Car extends Vehicle {
 
 }
 
-
-// toyota = new Vehicle('Toyota', 4, 'camry', 120, '');
-// honda = new Car ('Honda', 4, 'civic', 100, '')
-// honda.numOfDoors = 4
-// console.log(honda.numOfDoors)
-//volvo = new Car('Volvo', 4, 'primera', 120, '')
-//console.log(volvo.numOfDoors)
-// console.log(Car.describe());
-
 module.exports = {Car};
